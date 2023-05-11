@@ -1,15 +1,18 @@
 *{
-width: auto;
+width: 98;
 margin: auto;
 padding: 0.5%;
-background: #021414;
+background: #7c8cb9;
 /* background-image: url(http://comofuncionaque.com/wp-content/uploads/cfq/2015/10/lenguaje-de-programacion-bajo-nivel.jpg);  */
 
 }
 .titulo{
-    color: #0b5d6b;
+    color: #000000;
 }
 
-.fondo{
+/*.fondo{
 background: #f0fafb;
+}*/
+.bg-blacks{
+    background-color: #132d31;
 }
