@@ -1,18 +1,39 @@
 *{
 width: 98;
-margin: auto;
+margin: 5;
 padding: 0.5%;
-background: #061c74;
-/* background-image: url(http://comofuncionaque.com/wp-content/uploads/cfq/2015/10/lenguaje-de-programacion-bajo-nivel.jpg);  */
+background: #000000;
 
+/* background-image: url(http://comofuncionaque.com/wp-content/uploads/cfq/2015/10/lenguaje-de-programacion-bajo-nivel.jpg);  */
 }
 .titulo{
-    color: #000000;
+    color: #fdfdfd;
 }
 
-/*.fondo{
+.fondo{
 background: #f0fafb;
-}*/
-.bg-blacks{
-    background-color: #132d31;
 }
+.bg-blacks{
+    background-color: #d9e4e6;
+}
+.color-icons {
+background-color: #000000;
+}
+.list-group-item{
+--bs-list-group-bg:transparent;
+}
+.list-group{
+    --bs-border-color:transparent;
+}
+    .fa-brands.fa-square-facebook.fa-2x:hover{
+        --bs-text-opacity: 1;
+        color: blue !important;
+    }
+    .fa-brands.fa-instagram.fa-2x:hover{
+        --bs-text-opacity: 1;
+        color:rgb(177, 50, 50) !important;
+    }
+    .fa-solid.fa-user-lock.fa-2x:hover{
+        --bs-text-opacity: 1;
+        color:rgb(8, 228, 177) !important;
+    }
