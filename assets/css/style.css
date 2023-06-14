@@ -12,7 +12,7 @@ h1.titulo{
     line-height:normal;
     text-align: center;
 }
-
+/*barra de arriba*/
 .navbar{
 background: rgb(6, 1, 52) !important;
 }
@@ -26,6 +26,8 @@ background: rgb(6, 1, 52) !important;
 .list-group{
     --bs-border-color: transparent;
 }
+/* hasta aca va la barra*/
+/* parte de redes, iconos*/
     .fa-brands.fa-square-facebook.fa-2x:hover{
         --bs-text-opacity: 1;
         color: rgb(3, 3, 122) !important;
@@ -38,6 +40,8 @@ background: rgb(6, 1, 52) !important;
         --bs-text-opacity: 1;
         color:rgb(2, 152, 35) !important;
     }
+    /* fin parte de redes, iconos*/
+    /* encabezado, mi nombre*/
     section.banercito{
        background-image:url(/Img/Baner.jpg);
        background-repeat: no-repeat;
@@ -55,8 +59,8 @@ background: rgb(6, 1, 52) !important;
        -webbkit-background-size:cover;
       
     }
-
-
+/* fin encabezado, mi nombre*/
+/* fin parte de habilidades*/
     .mt-100{
       margin-top: 200px;
     }
@@ -214,3 +218,4 @@ background: rgb(6, 1, 52) !important;
             transform: rotate(70deg);
           }
         }
+        /* fin parte habilidades*/
