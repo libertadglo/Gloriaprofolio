@@ -68,7 +68,7 @@ background: rgb(13, 1, 55) !important;
 .progress-section h1{ margin-bottom:70px; color:#ffffff;}
 
 .progress-bars{ margin: auto; background: #ffffff; width: 120px; height: 120px; transform: rotate(45deg); position: relative;} /*fondo dentro del rombo*/
-.progress-bars h2 { margin:auto: 120px; text-align: center; transform: rotate(-45deg);} /*alineacion del texto*/
+.progress-bars h2 { margin:auto; text-align: center; transform: rotate(-45deg);} /*alineacion del texto*/
 .progress-bars:before{position: absolute; content: ""; border: solid 5px #595959; border-width: 5px 0px 0px 5px; width: 140px/*aca cambia la linea de arriba*/; height: 140px/*aca cambia la linea de arriba*/; top: -9px; left: -9px; bottom: -9px; right: -9px; z-index: 10;} /*linea de color blanca*/
 .progress-bars:after{position: absolute; content: ""; border: solid 5px #2bb0ef; border-width: 5px 5px 5px 5px; width: 140px/*aca cambia la linea de abajo*/; height: 140px/*aca cambia la linea de abajo*/; top: -9px; left: -9px; bottom: -9px; right: -9px;} /*linea de color celeste*/
 
